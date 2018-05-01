@@ -19,7 +19,7 @@ class HomeController @Inject()(cc: ControllerComponents) (implicit assetsFinder:
    * a path of `/`.
    */
   def index = Action {
-    Ok("Hello World!!")
+    Ok("Hello World!! " + 10 *  1777000)
   }
 
 }
